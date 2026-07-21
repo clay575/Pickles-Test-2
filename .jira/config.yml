@@ -1,4 +1,24 @@
 deployments:
+  environmentMapping:
+    development:
+      - "dev*"
+      - "Entwicklung"
+      - "desenvolvimento"
+      - "дев"
+    testing:
+      - "testes"
+      - "Test"
+      - "TST-*"
+      - "тест"
+    staging:
+      - "Pre-Prod"
+      - "STG-*"
+      - "staging"
+    production:
+      - "Produktion"
+      - "produção"
+      - "продакшн"
+      - "PROD-*"
   deploymentGating:
     enabled: true # to enable the feature
     retry: 50 # run poll action 50 times
