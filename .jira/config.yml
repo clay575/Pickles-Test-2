@@ -4,6 +4,7 @@ deployments:
       - "dev*"
       - "Entwicklung"
       - "desenvolvimento"
+      - "desarrollo"
       - "дев"
     testing:
       - "testes"
